@@ -53,35 +53,44 @@ User Order List: displays a list of all the orders made by a specific user
 
 Product Order List: displays a list of all orders made for a specific product
 
-Instructions
+
+
+Instructions:
 
 The following applications are required:
-IntelliJ IDEA
-MySQL WorkBench
-MySQL Database
-Google Chrome
-Database Setup
+IntelliJ IDEA, 
+MySQL WorkBench, 
+MySQL Database, 
+Google Chrome.
 
 
-Download the db_design_final_project_database.zip from GitHub
 
-Unzip the database dump files to a local directory
+Database Setup:
 
-Log into the MYSQL WorkBench
-Create a schema called db_design
+Download the db_design_final_project_database.zip from GitHub. 
+Unzip the database dump files to a local directory. 
+Log into the MYSQL WorkBench. 
+Create a schema called db_design. 
 Import the database from the dump file, it will create following tables:
-users
-product
-orders
-sizetype
-User Interface Project Setup
-Download the project from GitHub
-Open IntelliJ IDEA, and navigate to project folder, open the Project
-Change the database connection string 
+users, 
+product, 
+orders, 
+sizetype. 
+
+
+
+User Interface Project Setup:
+
+
+Download the project from GitHub. 
+Open IntelliJ IDEA, and navigate to project folder, open the Project.
+Change the database connection string. 
 The database connection is in the src\main\resources\application.properties file; change the following:
-spring.datasource.url =
-spring.datasource.username = 
-spring.datasource.password = 
-	Make sure the information provided matches to your database connection information.
+spring.datasource.url = ,
+spring.datasource.username = ,
+spring.datasource.password = . 
+Make sure the information provided matches to your database connection information. 
+
+
 Run the ApplicationServer -  Right click ApplicationServer under src\main\java\project and select ‘Run ApplicationServer’
 After the application server has run completely, right click index.html under src\main\webapp and select ‘Run index.html’; the home page will display in the Chrome Browser
