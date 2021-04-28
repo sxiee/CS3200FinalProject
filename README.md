@@ -35,15 +35,22 @@ My portable enumeration is sizetype; sizetype stores the different sizes for clo
 Currently the database contains these options for size type: XS, S, M, L, XL. However, the options can be changed by inserting or updating the data in the sizetype table.
 
 11) User Interface: 
-	The user interface begins with a home screen where you can navigate to three different lists by 			clicking on the links, “View User List”, “View Product List”, “View Order List”.
+The user interface begins with a home screen where you can navigate to three different lists by clicking on the links, “View User List”, “View Product List”, “View Order List”.
 
 User List: displays a list of the users; a new user can be created by pressing “Add New User” which would then bring us to the User Editor where we can input the new user information.
+
 Product List: displays a list of the available products; a new product can be created by pressing “Add New Product” which would then bring us to the Product Editor where we can input the new product information.
+
 Order List: displays a list of the orders made; a new order can be created by pressing “Add New Order” which would then bring us to the Order Editor where we can input the new order information.
+
 User Editor: allows us to edit user information. We can either update/delete an existing user or create a new user. The User Editor also has a “Go To User Orders” link which displays the orders of the user we are currently observing.
+
 Product Editor: allows us to edit product information. We can either update/delete an existing product or create a new product. The Product Editor also has a “Go To Product Orders” link which displays the orders of the product being observed.
+
 Order Editor: allows us to edit order information. We can either update/delete an existing order or create a new product. 
+
 User Order List: displays a list of all the orders made by a specific user
+
 Product Order List: displays a list of all orders made for a specific product
 
 Instructions
@@ -54,8 +61,12 @@ MySQL WorkBench
 MySQL Database
 Google Chrome
 Database Setup
+
+
 Download the db_design_final_project_database.zip from GitHub
+
 Unzip the database dump files to a local directory
+
 Log into the MYSQL WorkBench
 Create a schema called db_design
 Import the database from the dump file, it will create following tables:
