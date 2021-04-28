@@ -55,7 +55,7 @@ Product Order List: displays a list of all orders made for a specific product
 
 
 
-Instructions:
+INSTRUCTIONS:
 
 The following applications are required:
 IntelliJ IDEA, 
@@ -65,7 +65,7 @@ Google Chrome.
 
 
 
-Database Setup:
+DATABASE SETUP:
 
 Download the db_design_final_project_database.zip from GitHub. 
 Unzip the database dump files to a local directory. 
@@ -79,7 +79,7 @@ sizetype.
 
 
 
-User Interface Project Setup:
+USER INTERFACE PROJECT SETUP:
 
 
 Download the project from GitHub. 
