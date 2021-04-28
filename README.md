@@ -1,6 +1,6 @@
 # CS3200FinalProject
 
-Name of the Project: 
+1) Name of the Project: 
 Online Shopping
 
 2) Team:
